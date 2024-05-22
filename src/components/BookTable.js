@@ -86,8 +86,8 @@ const BookTable = () => {
         { field: 'first_publish_year', headerName: 'First Publish Year', width: 150, editable: true },
         { field: 'subject', headerName: 'Subject', flex: 1, editable: true },
         { field: 'authorName', headerName: 'Author Name', width: 200, editable: true },
-        { field: 'authorBirthDate', headerName: 'Author Birth Date', width: 150, editable: true },
         { field: 'rating', headerName: 'Average Rating', width: 150, editable: true },
+        { field: 'authorBirthDate', headerName: 'Author Birth Date', width: 150, editable: true },
     ];
 
     const handlePaginationModelChange = (params) => {
